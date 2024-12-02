@@ -23,7 +23,32 @@ let go2Socks5s = [
 	'*cloudatacdn.com',
 	'*.loadshare.org',
 ];
-let addresses = ['www.udemy.com','www.visakorea.com','www.visa.co.jp','fbi.gov','www.ipaddress.my','www.digitalocean.com'];
+let addresses = ['www.udemy.com',
+		 'www.visakorea.com',
+		 'www.visa.co.jp',
+		 'fbi.gov',
+		 'www.ipaddress.my',
+		 'www.digitalocean.com',
+		 '162.159.80.198',
+		 '104.25.253.3',
+		 '104.25.255.246',
+		 '104.25.254.180',
+		 '172.67.5.159',
+		 '172.67.7.122',
+		 '104.20.58.145',
+		 '104.18.34.229',
+		 '172.67.6.247',
+		 '104.21.47.165',
+		 '104.21.46.63',
+		 '104.21.37.230',
+		 '104.18.148.245',
+		 '104.16.227.25',
+		 '2606:4700:9767:edbc:cad6:d0c2:d302:6c5c',
+		 '2606:4700:9649:3ada:6a8:ee0d:2f15:420a',
+		 '2606:4700:9648:c056:f5e1:c229:8e08:d87c',
+		 '2606:4700:9647:4bf3:c0b2:62e4:df6d:7167',
+		 '2606:4700:99e9:e07:42df:2ac6:c14b:fd29'
+		];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
