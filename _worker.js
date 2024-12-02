@@ -23,7 +23,7 @@ let go2Socks5s = [
 	'*cloudatacdn.com',
 	'*.loadshare.org',
 ];
-let addresses = [];
+let addresses = ['www.udemy.com','www.visakorea.com','www.visa.co.jp','fbi.gov','www.ipaddress.my','www.digitalocean.com'];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
