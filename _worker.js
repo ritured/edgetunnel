@@ -2,7 +2,22 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = ['shopify.com',
+	       'www.visa.co.jp',
+	       'www.visakorea.com',
+	       'www.visa.com.sg',
+	       'skk.moe',
+	       'www.gco.gov.qa',
+	       'www.udemy.com',
+	       'www.who.int',
+	       'malaysia.com',
+	       'icook.hk',
+	       'japan.com',
+	       'www.udacity.com',
+	       'www.whoer.net',
+	       'www.hugedomains.com',
+	       'singapore.com','
+	       edtunnel-dgp.pages.dev'];
 let sub = '';
 let subconverter = 'SUBAPI.fxxk.dedyn.io';
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
