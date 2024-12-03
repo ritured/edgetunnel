@@ -2,22 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = ['shopify.com',
-	       'www.visa.co.jp',
-	       'www.visakorea.com',
-	       'www.visa.com.sg',
-	       'skk.moe',
-	       'www.gco.gov.qa',
-	       'www.udemy.com',
-	       'www.who.int',
-	       'malaysia.com',
-	       'icook.hk',
-	       'japan.com',
-	       'www.udacity.com',
-	       'www.whoer.net',
-	       'www.hugedomains.com',
-	       'singapore.com','
-	       edtunnel-dgp.pages.dev'];
+let proxyIP = [];
 let sub = '';
 let subconverter = 'SUBAPI.fxxk.dedyn.io';
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
@@ -71,7 +56,23 @@ let addresses = ['www.udemy.com',
 		 '144.24.200.164',
 		 '129.154.59.99',
 		 '132.145.94.80',
-		 '47.243.236.86'
+		 '47.243.236.86',
+		 'shopify.com',
+	       'www.visa.co.jp',
+	       'www.visakorea.com',
+	       'www.visa.com.sg',
+	       'skk.moe',
+	       'www.gco.gov.qa',
+	       'www.udemy.com',
+	       'www.who.int',
+	       'malaysia.com',
+	       'icook.hk',
+	       'japan.com',
+	       'www.udacity.com',
+	       'www.whoer.net',
+	       'www.hugedomains.com',
+	       'singapore.com','
+	       edtunnel-dgp.pages.dev'
 		];
 let addressesapi = [];
 let addressesnotls = [];
